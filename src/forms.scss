@@ -1,7 +1,14 @@
 
 form {
+
+  padding: 10px;
+  text-align: center;
+  border: solid 1px black;
+  margin: 3px;
+  @include rounded-border;
+
   input {
     display: block;
-    margin-bottom: 17px;
+    margin: 17px auto;
   }
 }

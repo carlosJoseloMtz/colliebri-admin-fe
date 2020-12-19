@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './index.scss'
+
 import Input from '../../components/input'
 import Button from '../../components/button'
 
@@ -43,7 +45,7 @@ class LoginPage extends React.Component {
   }
 
   render() {
-    return <div>
+    return <div className="login-page">
 
       <form onSubmit={this.handleLoginSubmit.bind(this)}>
         <Input

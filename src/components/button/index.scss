@@ -1,4 +1,21 @@
+@import '../../variables';
+@import '../../border.scss';
+
 .btn {
   padding: 7px 27px;
   text-align: center;
+
+  background-color: $brown;
+  color: white;
+  border: solid 1px $brown;
+  outline: none;
+  @include rounded-border;
+
+  &:hover {
+    background-color: lighten($brown, 20%);
+  }
+
+  &:active {
+    background-color: darken($brown, 5%);
+  }
 }

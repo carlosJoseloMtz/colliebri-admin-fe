@@ -1,7 +1,8 @@
 import React from 'react'
+import './index.scss'
 
 const Input = (props) => (
-  <input {...props}></input>
+  <input className="input" {...props}></input>
 )
 
 export default Input
