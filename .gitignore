@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# avoid having conflicts on specific versions
+package-lock.json
+
 # testing
 /coverage
 
